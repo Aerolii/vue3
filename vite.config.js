@@ -12,7 +12,8 @@ export default {
     '@router': path.resolve(__dirname, 'src/router'),
     '@views': path.resolve(__dirname, 'src/views'),
     '@assets': path.resolve(__dirname, 'src/assets'),
-    '@api': path.resolve(__dirname, 'src/api')
+    '@api': path.resolve(__dirname, 'src/api'),
+    '@utils': path.resolve(__dirname, 'src/utils')
   },
   // 生产构建配置
   build: {
